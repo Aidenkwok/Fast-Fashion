@@ -1,6 +1,6 @@
 var facts = [
 "Felmale workers get beaten up for asking for better conditions",
-"1 in 6 people alive in the world today wonk in some part fo the global fashion industry",
+"1 in 6 people alive in the world today work in some part fo the global fashion industry",
 "in the US, the textile industry is the 5th largest contributor to the nation's overall co2 emissions",
 "in Texas, 80% of cotton growing acres is now GMO",
 "textiles account for 19.8 tons of the average american's annual greenhouse emissions",
