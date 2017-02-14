@@ -1,14 +1,27 @@
-.row{
+html{
+	height: 100vh;
+}
+
+#row1{
 	height:100vh;
 	display: flex;
 	align-items:center;
+	justify-content:center;
+}
+
+#row2{
+	position: relative;
+	bottom: 6em;
+	height:0em;
+	max-width:5.5em;
+	margin: 0 auto;
 }
 
 h1{
 	color:white;
 	text-align: center;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 3rem;
 	margin: 0 auto;
 	text-transform: uppercase;
 	text-shadow: 2px 2px black;
@@ -18,4 +31,18 @@ h1{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+.button, .button:hover{
+	background-color:transparent;
+}
+
+i{
+	text-shadow: 2px 2px black;	
+}
+
+@media (max-width: 600px){
+	h1{
+		font-size: 2em;
+	}
 }
