@@ -8,8 +8,9 @@ h1{
 	color:white;
 	text-align: center;
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 3em;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 
 #randomBackground{
