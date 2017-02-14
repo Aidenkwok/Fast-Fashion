@@ -33,7 +33,7 @@ h1{
 	background-size: cover;
 }
 
-.button, .button:hover , .button:active, .button:visited{
+.button, .button:hover , .button:active, .button:visited, .button:focus{
 	background-color:transparent !important;
 }
 
