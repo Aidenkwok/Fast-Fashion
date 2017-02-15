@@ -11,9 +11,9 @@ html{
 
 #row2{
 	position: relative;
-	bottom: 10em;
+	bottom: 11em;
 	height:0em;
-	max-width:0.1em;
+	max-width:0em;
 	margin: 0 auto;
 }
 
@@ -55,6 +55,6 @@ i{
 
 @media (max-width: 600px){
 	h1{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 }
