@@ -13,8 +13,11 @@ html{
 	position: relative;
 	bottom: 11em;
 	height:0em;
-	max-width:0em;
-	margin: 0 auto;
+}
+
+.middle{
+	width:5em;
+	margin:0auto;
 }
 
 h1{
