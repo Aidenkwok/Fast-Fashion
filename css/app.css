@@ -16,7 +16,7 @@ html{
 }
 
 .middle{
-	width:0em;
+	width:1em;
 	margin:0auto;
 }
 
@@ -38,6 +38,7 @@ h1{
 
 .button, .button:hover , .button:active, .button:visited, .button:focus{
 	background-color:transparent !important;
+	margin-left: -1em;
 }
 
 p{
