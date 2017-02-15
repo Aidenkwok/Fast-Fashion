@@ -45,6 +45,8 @@ h1{
 .button, .button:hover , .button:active, .button:visited, .button:focus{
 	background-color:transparent !important;
 	margin-left: -1em;
+	padding:none;
+	height:1em;
 }
 
 p{
@@ -64,8 +66,28 @@ i{
   animation: fa-spin 6s infinite linear;
 }
 
+.womc{
+	position: absolute;
+	bottom:1em;
+	right:1em
+}
+
+.womc img{
+	width:4em;
+	height:4em;
+}
+
+
 @media (max-width: 600px){
 	h1{
 		font-size: 1.5em;
 	}
+	p{
+		font-size: 0.5em;
+	}
+
+	.womc img{
+		width:3.5em;
+		height:3.5em;
+	}	
 }
