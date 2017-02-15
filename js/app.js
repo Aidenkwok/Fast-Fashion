@@ -14,3 +14,5 @@ randomise();
 function refresh(){
 	randomise();
 }
+
+$('#circle').circleType()
