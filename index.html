@@ -17,24 +17,46 @@
         </div>
       </div>
       
-      <div class="row middle">
+      <div class="row">
         <div id="row2">
-          <button class="button" onClick="refresh()">
-            <p id="circle" class= "slow-spin">  know more / no more / </p>
-          </button> 
+          <img onClick = "randomise()" class= "slow-spin"id ="nomore"src="img/nomore.svg" alt="">
         </div>  
       </div>
       
-      <div class="womc">
+      <div class="corner womc">
         <a href="http:/publicnotice.fyi"><img src="img/womc.svg" alt=""></a>
       </div>
+
+      <div class="corner fb">
+        <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+      </div>
+
+      <div class="corner video">
+        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+      </div>
+      
+       <div class="corner info">
+        <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
+      </div>
+
+      <div class="overlay">
+        <div class="content">
+          <h1 id="title">know more, <br>no more</h1>
+          <p>this is a test paragraph</p>
+        </div>
+      </div>
+
+      <div class="play">
+        <div class="wrapper">
+          <iframe src="https://www.youtube.com/embed/5r8V4QWwxf0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      
     </div>
   
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/circletype.js"></script>
     <script src="js/facts.js"></script>
     <script src="js/backgrounds.js"></script>
     <script src="js/app.js"></script>

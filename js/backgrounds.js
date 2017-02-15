@@ -1,7 +1,10 @@
 var images = [
-"Disaster.gif",
-"Child.gif",
-"Factory.gif",
-"pollution.gif",
-"Field.gif",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
 ];
