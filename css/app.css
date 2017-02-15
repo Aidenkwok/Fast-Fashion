@@ -2,6 +2,11 @@ html{
 	height: 100vh;
 }
 
+@font-face {
+    font-family: Berthold Akzidenz Grotesk;
+    src: url("BertholdAkzidenzGrotesk.otf") format("opentype");
+}
+
 #row1{
 	height:100vh;
 	display: flex;
@@ -21,10 +26,11 @@ html{
 }
 
 h1{
+	font-family: Berthold Akzidenz Grotesk;
 	color:white;
 	text-align: center;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	margin: 0 auto;
 	text-transform: uppercase;
 	text-shadow: 2px 2px black;

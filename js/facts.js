@@ -10,4 +10,12 @@ var facts = [
 "growing cotton accounts for 22.5% of global insecticide use",
 "2 billion pairs of jeans are produced every year and a typical pair takes 7,000 litres of water to produce",
 "Each year over 80 billion pieces of clothing are produced worldwide - three out of four garments end up in landfills.",
+"In Hong Kong, residents throw away the equivalent of 1,400 t-shirts every minute!",
+"'Buy less, choose well, make it last.' Vivienne westwood",
+"60 billion square meters of textiles are left on the cutting room floor anually",
+"257 gallons of water are used to grow enough cotton for one t-shirt disposable culture",
+"Fashion is the 2nd most polluting industry in the world",
+"cotton is responsible for 2.6% of the global water use",
+"polyester emits almost three times more carbon dioxide in its lifecycle than cotton",
+"polyester is present in 60% of today's clothing and it takes decades to degrade",
 ];
