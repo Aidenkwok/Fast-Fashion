@@ -161,5 +161,8 @@ i{
 	.womc img{
 		width:3.5em;
 		height:3.5em;
-	}	
+	}
+	.content{
+		padding:1em;
+	}
 }
