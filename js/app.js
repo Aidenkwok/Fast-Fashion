@@ -37,3 +37,5 @@ function background(){
 		$('#randomFact').text(facts[Math.floor(Math.random() * facts.length)]).fadeIn();
 	});	
 }
+
+setInterval(randomise, 6000)
