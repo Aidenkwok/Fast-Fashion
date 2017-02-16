@@ -1,16 +1,23 @@
 $(document).foundation();
 
-$(document).ready(function(){
-    $(".fadeIn").hide(0).delay(500).fadeIn(800);
-});
-
 function randomise(){
 	$('#randomBackground').css({'background-image': 'url(./img/'+ images[Math.floor(Math.random() * images.length)] + '.gif) '});
-	fact()
+	fact();
 };
 
+function fact(){
+	$('#randomFact').fadeOut(function(){
+		$('#randomFact').text(facts[Math.floor(Math.random() * facts.length)]).fadeIn();
+	});	
+}
 
-randomise();
+var timer = setInterval(function(){ randomise() }, 6000);
+
+function reset(){
+	clearInterval(timer);
+	randomise();
+	setTimeout(timer,6000)
+};
 
 $('.overlay').hide();
 $('.play').hide();
@@ -25,17 +32,7 @@ $('.video').click(function(){
 	$('.overlay').hide();
 });
 
+$('#nomore').click(reset)
 
-function fact(){
-	$('#randomFact').fadeOut(function(){
-		$('#randomFact').text(facts[Math.floor(Math.random() * facts.length)]).fadeIn();
-	});	
-}
-
-function background(){
-	$('#randomFact').fadeOut(function(){
-		$('#randomFact').text(facts[Math.floor(Math.random() * facts.length)]).fadeIn();
-	});	
-}
-
-setInterval(randomise, 6000)
+randomise();
+timer;
