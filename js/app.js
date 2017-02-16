@@ -16,7 +16,7 @@ var timer = setInterval(function(){ randomise() }, 6000);
 function reset(){
 	clearInterval(timer);
 	randomise();
-	setTimeout(timer,6000)
+	timer = setInterval(function(){ randomise() }, 6000);
 };
 
 $('.overlay').hide();
