@@ -11,12 +11,12 @@ function fact(){
 	});	
 }
 
-var timer = setInterval(function(){ randomise() }, 6000);
+var timer = setInterval(function(){ randomise() }, 8000);
 
 function reset(){
 	clearInterval(timer);
 	randomise();
-	timer = setInterval(function(){ randomise() }, 6000);
+	timer = setInterval(function(){ randomise() }, 8000);
 };
 
 $('.overlay').hide();
